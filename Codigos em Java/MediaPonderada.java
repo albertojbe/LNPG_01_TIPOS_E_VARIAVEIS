@@ -23,7 +23,7 @@ public class MediaPonderada{
         p3 = scan.nextInt();
         
          media = ((n1*p1) + (n2*p2) + (n3*p3)) / (p1+p2+p3);
-         System.out.printf("\n\nA média ponderada é: %f", media);
+         System.out.printf("\n\nA média ponderada é: %.2f", media);
     
     }
 }
